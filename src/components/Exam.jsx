@@ -86,10 +86,13 @@ function Exam() {
           <Card.Title>Exam 2 - Holidaze</Card.Title>
           <Card.Text>
             Project Exam is a booking site where you can search for hotels, bed
-            and breakfasts and guesthouses. Holidaze is a local booking agency
-            in Bergen for visitors to find an accommodation, and for the
-            accommodation owners to recieve enquiries and create new
-            establishments.
+            and breakfasts and guesthouses. Holidaze is an agency located in
+            Bergen. The website consists of a visitor side and an admin side.
+            Visitors can search accommodations and make enquiries to a spesific
+            one, as well as contact the Holidaze agency itself. Administration
+            can see messages to Holidaze, a list of enquiries and create new
+            establishements. The data to the website is stored in an API made
+            with Strapi as a Headless CMS.
           </Card.Text>
           <S.StyledButton variant="primary">
             <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-martineleirvik">

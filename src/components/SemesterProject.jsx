@@ -71,8 +71,13 @@ function SemesterProject() {
           <Card.Text>
             This project is made with Strapi, and HTML, Sass and vanilla
             Javascript. This e-commerce has both customer facing pages and admin
-            facing pages. As admin you can add/edit products. And the admin can
-            login with jwt-key in local storage.
+            facing pages. Customers can see a list of all the products and
+            search products and then view details about each product. The
+            customer can add a product to the cart and then view all the
+            products added in the cart. As admin you can add/edit products. And
+            the admin can login with jwt-key in local storage. The data is
+            populated by a Strapi API supplied by Noroff that is deployed
+            locally.
           </Card.Text>
           <S.StyledButton variant="primary">
             <a href="https://github.com/martineleirvik/Semester-project-2">
