@@ -3,22 +3,83 @@ import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import * as S from "./Portfolio.styled";
-import Exam1 from "../img/Skjermbilde.PNG";
-import Exam2 from "../img/Skjermbilde2.PNG";
-import Exam3 from "../img/Skjermbilde3.PNG";
+import Exam1 from "../img/exam/Skjermbilde.PNG";
+import Exam2 from "../img/exam/Skjermbilde1.PNG";
+import Exam3 from "../img/exam/Skjermbilde2.PNG";
+import Exam4 from "../img/exam/Skjermbilde3.PNG";
+import Exam5 from "../img/exam/Skjermbilde4.PNG";
+import Exam6 from "../img/exam/Skjermbilde5.PNG";
+import Exam7 from "../img/exam/Skjermbilde6.PNG";
+import Exam8 from "../img/exam/Skjermbilde7.PNG";
+import Exam9 from "../img/exam/Skjermbilde8.PNG";
+
 function Exam() {
   return (
     <div>
       <S.StyledCard style={{ width: "25rem" }}>
         <Carousel>
           <S.StyledCarouselItem>
-            <img className="d-block w-100" src={Exam1} alt="First slide" />
+            <img
+              className="d-block w-100"
+              src={Exam1}
+              alt="Screenshot of the website I made to Exam 2. A hotel booking website called Holidaze."
+            />
           </S.StyledCarouselItem>
           <S.StyledCarouselItem>
-            <img className="d-block w-100" src={Exam2} alt="Second slide" />
+            <img
+              className="d-block w-100"
+              src={Exam2}
+              alt="Screenshot of the website I made to Exam 2. A hotel booking website called Holidaze."
+            />
           </S.StyledCarouselItem>
           <S.StyledCarouselItem>
-            <img className="d-block w-100" src={Exam3} alt="Third slide" />
+            <img
+              className="d-block w-100"
+              src={Exam3}
+              alt="Screenshot of the website I made to Exam 2. A hotel booking website called Holidaze."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={Exam4}
+              alt="Screenshot of the website I made to Exam 2. A hotel booking website called Holidaze."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={Exam5}
+              alt="Screenshot of the website I made to Exam 2. A hotel booking website called Holidaze."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={Exam6}
+              alt="Screenshot of the website I made to Exam 2. A hotel booking website called Holidaze."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={Exam7}
+              alt="Screenshot of the website I made to Exam 2. A hotel booking website called Holidaze."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={Exam8}
+              alt="Screenshot of the website I made to Exam 2. A hotel booking website called Holidaze."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={Exam9}
+              alt="Screenshot of the website I made to Exam 2. A hotel booking website called Holidaze."
+            />
           </S.StyledCarouselItem>
         </Carousel>
         <Card.Body>

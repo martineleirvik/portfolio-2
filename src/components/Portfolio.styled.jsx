@@ -24,6 +24,8 @@ export const StyledButton = styled(Button)`
   border: none;
   padding: 5px 22px;
   border-radius: 10px;
+  display: block;
+  margin: 0 auto;
   a {
     color: white;
     text-decoration: none;

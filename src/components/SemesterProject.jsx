@@ -3,9 +3,13 @@ import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import * as S from "./Portfolio.styled";
-import Exam1 from "../img/Skjermbilde.PNG";
-import Exam2 from "../img/Skjermbilde2.PNG";
-import Exam3 from "../img/Skjermbilde3.PNG";
+import SP1 from "../img/sp/Skjermbilde.PNG";
+import SP2 from "../img/sp/Skjermbilde1.PNG";
+import SP3 from "../img/sp/Skjermbilde2.PNG";
+import SP4 from "../img/sp/Skjermbilde3.PNG";
+import SP5 from "../img/sp/Skjermbilde4.PNG";
+import SP6 from "../img/sp/Skjermbilde5.PNG";
+import SP7 from "../img/sp/Skjermbilde6.PNG";
 
 function SemesterProject() {
   return (
@@ -13,13 +17,53 @@ function SemesterProject() {
       <S.StyledCard style={{ width: "25rem" }}>
         <Carousel>
           <S.StyledCarouselItem>
-            <img className="d-block w-100" src={Exam1} alt="First slide" />
+            <img
+              className="d-block w-100"
+              src={SP1}
+              alt="Printscreen of the website I made to the semester project 2 - a sneaker e-commerce."
+            />
           </S.StyledCarouselItem>
           <S.StyledCarouselItem>
-            <img className="d-block w-100" src={Exam2} alt="Second slide" />
+            <img
+              className="d-block w-100"
+              src={SP2}
+              alt="Screenshot of the website I made to the semester project 2 - a sneaker e-commerce."
+            />
           </S.StyledCarouselItem>
           <S.StyledCarouselItem>
-            <img className="d-block w-100" src={Exam3} alt="Third slide" />
+            <img
+              className="d-block w-100"
+              src={SP3}
+              alt="Screenshot of the website I made to the semester project 2 - a sneaker e-commerce."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={SP4}
+              alt="Screenshot of the website I made to the semester project 2 - a sneaker e-commerce."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={SP5}
+              alt="Screenshot of the website I made to the semester project 2 - a sneaker e-commerce."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={SP6}
+              alt="Screenshot of the website I made to the semester project 2 - a sneaker e-commerce."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={SP7}
+              alt="Screenshot of the website I made to the semester project 2 - a sneaker e-commerce."
+            />
           </S.StyledCarouselItem>
         </Carousel>
         <Card.Body>
@@ -31,7 +75,7 @@ function SemesterProject() {
             login with jwt-key in local storage.
           </Card.Text>
           <S.StyledButton variant="primary">
-            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-martineleirvik">
+            <a href="https://github.com/martineleirvik/Semester-project-2">
               Github
             </a>
           </S.StyledButton>

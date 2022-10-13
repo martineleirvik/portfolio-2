@@ -1,4 +1,5 @@
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import GlobalStyle from "./styles/GlobalStyle";
 import { ThemeProvider } from "styled-components";
@@ -10,6 +11,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Portfolio />
+        <Footer />
       </ThemeProvider>
     </div>
   );

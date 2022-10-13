@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import * as S from "./Portfolio.styled";
-import Exam1 from "../img/Skjermbilde.PNG";
-import Exam2 from "../img/Skjermbilde2.PNG";
-import Exam3 from "../img/Skjermbilde3.PNG";
+import JSF from "../img/jsf/Skjermbilde.PNG";
+import JSF1 from "../img/jsf/Skjermbilde1.PNG";
+import JSF2 from "../img/jsf/Skjermbilde2.PNG";
+import JSF3 from "../img/jsf/Skjermbilde3.PNG";
 
 function JSFramework() {
   return (
@@ -13,13 +14,32 @@ function JSFramework() {
       <S.StyledCard style={{ width: "25rem" }}>
         <Carousel>
           <S.StyledCarouselItem>
-            <img className="d-block w-100" src={Exam1} alt="First slide" />
+            <img
+              className="d-block w-100"
+              src={JSF}
+              alt="Screenshot of the website I made to JavaScript Frameworks Course Assignment."
+            />
           </S.StyledCarouselItem>
           <S.StyledCarouselItem>
-            <img className="d-block w-100" src={Exam2} alt="Second slide" />
+            <img
+              className="d-block w-100"
+              src={JSF1}
+              alt="Screenshot of the website I made to JavaScript Frameworks Course Assignment."
+            />
           </S.StyledCarouselItem>
           <S.StyledCarouselItem>
-            <img className="d-block w-100" src={Exam3} alt="Third slide" />
+            <img
+              className="d-block w-100"
+              src={JSF2}
+              alt="Screenshot of the website I made to JavaScript Frameworks Course Assignment."
+            />
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img
+              className="d-block w-100"
+              src={JSF3}
+              alt="Screenshot of the website I made to JavaScript Frameworks Course Assignment."
+            />
           </S.StyledCarouselItem>
         </Carousel>
         <Card.Body>
@@ -33,7 +53,7 @@ function JSFramework() {
             which is only visible when logged in.
           </Card.Text>
           <S.StyledButton variant="primary">
-            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-martineleirvik">
+            <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-martineleirvik">
               Github
             </a>
           </S.StyledButton>
