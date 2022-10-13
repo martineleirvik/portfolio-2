@@ -7,7 +7,7 @@ export const Heading = styled.h1`
 `;
 
 export const StyledCard = styled(Card)`
-  margin: 10px auto;
+  margin: 50px auto;
   padding: 0 0 30px 0;
   border-radius: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
