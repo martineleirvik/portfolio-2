@@ -1,9 +1,11 @@
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import * as S from "./Portfolio.styled";
 import Exam1 from "../img/Skjermbilde.PNG";
 import Exam2 from "../img/Skjermbilde2.PNG";
+import Exam3 from "../img/Skjermbilde3.PNG";
 
 function Portfolio() {
   return (
@@ -11,26 +13,15 @@ function Portfolio() {
       <S.Heading>Martine's Portfolio</S.Heading>
       <S.StyledCard style={{ width: "25rem" }}>
         <Carousel>
-          <Carousel.Item>
+          <S.StyledCarouselItem>
             <img className="d-block w-100" src={Exam1} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
             <img className="d-block w-100" src={Exam2} alt="Second slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
+          </S.StyledCarouselItem>
+          <S.StyledCarouselItem>
+            <img className="d-block w-100" src={Exam3} alt="Third slide" />
+          </S.StyledCarouselItem>
         </Carousel>
         <Card.Body>
           <Card.Title>Exam 2 - Holidaze</Card.Title>
@@ -38,7 +29,11 @@ function Portfolio() {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Button variant="primary">Github</Button>
+          <S.StyledButton variant="primary">
+            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-martineleirvik">
+              Github
+            </a>
+          </S.StyledButton>
         </Card.Body>
       </S.StyledCard>
     </>
