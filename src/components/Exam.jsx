@@ -83,7 +83,7 @@ function Exam() {
           </S.StyledCarouselItem>
         </Carousel>
         <Card.Body>
-          <Card.Title>Exam 2 - Holidaze</Card.Title>
+          <Card.Title>Exam 2 - Holidaze booking page</Card.Title>
           <Card.Text>
             Project Exam is a booking site where you can search for hotels, bed
             and breakfasts and guesthouses. Holidaze is an agency located in

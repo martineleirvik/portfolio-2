@@ -6,7 +6,7 @@ import SemesterProject from "./SemesterProject";
 function Portfolio() {
   return (
     <>
-      <S.Heading>Martine's Portfolio</S.Heading>
+      <S.Heading>Martine's Portfolio page</S.Heading>
       <Exam />
       <JSFramework />
       <SemesterProject />

@@ -67,7 +67,7 @@ function SemesterProject() {
           </S.StyledCarouselItem>
         </Carousel>
         <Card.Body>
-          <Card.Title>Semester Project 2</Card.Title>
+          <Card.Title>Semester Project 2 - E-commerce</Card.Title>
           <Card.Text>
             This project is made with Strapi, and HTML, Sass and vanilla
             Javascript. This e-commerce has both customer facing pages and admin
